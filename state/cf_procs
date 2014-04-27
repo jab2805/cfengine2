@@ -1,0 +1,152 @@
+USER       PID  PPID  PGID %CPU %MEM    VSZ  NI   RSS NLWP STIME     TIME COMMAND
+root         1     0     1  0.0  0.3  51228   0  7520    1 Apr26 00:00:03 /usr/lib/systemd/systemd --switched-root --system --deserialize 20
+root         2     0     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [kthreadd]
+root         3     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:02 [ksoftirqd/0]
+root         5     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [kworker/0:0H]
+root         7     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [kworker/u:0H]
+root         8     2     0  0.0  0.0      0   -     0    1 Apr26 00:00:00 [migration/0]
+root         9     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [rcu_bh]
+root        10     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:03 [rcu_sched]
+root        11     2     0  0.0  0.0      0   -     0    1 Apr26 00:00:00 [watchdog/0]
+root        12     2     0  0.0  0.0      0   -     0    1 Apr26 00:00:00 [watchdog/1]
+root        13     2     0  0.0  0.0      0   -     0    1 Apr26 00:00:00 [migration/1]
+root        14     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [ksoftirqd/1]
+root        16     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [kworker/1:0H]
+root        17     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [khelper]
+root        18     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [kdevtmpfs]
+root        19     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [netns]
+root        20     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [bdi-default]
+root        21     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [kintegrityd]
+root        22     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [kblockd]
+root        23     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [ata_sff]
+root        24     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [khubd]
+root        25     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [md]
+root        29     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:01 [kswapd0]
+root        30     2     0  0.0  0.0      0   5     0    1 Apr26 00:00:00 [ksmd]
+root        31     2     0  0.0  0.0      0  19     0    1 Apr26 00:00:00 [khugepaged]
+root        32     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [fsnotify_mark]
+root        33     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [crypto]
+root        41     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [kthrotld]
+root        44     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [scsi_eh_0]
+root        45     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [scsi_eh_1]
+root        48     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [kpsmoused]
+root        50     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [deferwq]
+root        52     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [kworker/0:1H]
+root        53     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:01 [kworker/1:1H]
+root        58     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [kauditd]
+root       179     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [firewire]
+root       180     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [scsi_eh_2]
+root       182     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [scsi_eh_3]
+root       203     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [pccardd]
+root       235     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [kdmflush]
+root       236     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [kdmflush]
+root       254     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [jbd2/dm-1-8]
+root       255     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [ext4-dio-unwrit]
+root       283     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [flush-253:1]
+root       303     1   303  0.0  1.1 293764   0 22552    1 Apr26 00:00:01 /usr/lib/systemd/systemd-journald
+root       322     1   322  0.0  0.1  43008   0  2628    1 Apr26 00:00:00 /usr/lib/systemd/systemd-udevd
+root       325     1   325  0.0  0.2 100324   0  5448    1 Apr26 00:00:00 /usr/sbin/lvmetad
+root       367     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [cfg80211]
+root       377     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [kvm-irqfd-clean]
+root       379     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [iwl4965]
+root       409     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [kdmflush]
+root       420     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [jbd2/sda1-8]
+root       421     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [ext4-dio-unwrit]
+root       425     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [hd-audio0]
+root       440     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [jbd2/dm-2-8]
+root       441     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [ext4-dio-unwrit]
+root       443     1   443  0.0  0.0  48952  -4  1768    2 Apr26 00:00:00 /sbin/auditd -n
+root       456   443   456  0.0  0.0  80216  -8   828    2 Apr26 00:00:00 /sbin/audispd
+root       458   456   456  0.0  0.0  23976  -4   808    1 Apr26 00:00:00 /usr/sbin/sedispatch
+root       461     1   461  0.0  0.0  16744  19  1188    1 Apr26 00:00:00 /usr/sbin/alsactl -s -n 19 -c -E ALSA_CONFIG_PATH=/etc/alsa/alsactl.conf --initfile=/lib/alsa/init/00main rdaemon
+root       463     1   463  0.0  1.0 348380   0 20696    2 Apr26 00:00:01 /usr/bin/python /usr/sbin/firewalld --nofork --nopid
+root       468     1   468  0.0  0.0  33084   0  1764    1 Apr26 00:00:00 /usr/lib/systemd/systemd-logind
+rtkit      480     1   480  0.0  0.0 164616   1  1232    3 Apr26 00:00:00 /usr/libexec/rtkit-daemon
+avahi      481     1   481  0.0  0.0  28068   0  1628    1 Apr26 00:00:00 avahi-daemon: running [linux.local]
+root       482     1   482  0.0  0.0 256760   0  1936    4 Apr26 00:00:00 /sbin/rsyslogd -n
+dbus       485     1   485  0.0  0.1  33664   0  2916    2 Apr26 00:00:06 /bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       486     1   486  0.0  0.3 393424   0  6700    3 Apr26 00:00:00 /usr/libexec/accounts-daemon
+avahi      487   481   481  0.0  0.0  27944   0   232    1 Apr26 00:00:00 avahi-daemon: chroot helper
+root       489     1   489  0.0  0.0   6996   0   856    1 Apr26 00:00:00 /usr/sbin/mcelog --ignorenodev --daemon --foreground
+root       493     1   493  0.0  0.0  23724   0   948    1 Apr26 00:00:00 /usr/sbin/atd -f
+root       494     1   494  0.0  0.0 124084   0  1692    1 Apr26 00:00:00 /usr/sbin/crond -n
+root       497     1   497  0.0  0.1 296804   0  3160    3 Apr26 00:00:00 /usr/sbin/gdm
+root       498     1   498  0.0  0.0 140592   0  1500    1 Apr26 00:00:00 /usr/sbin/abrtd -d -s
+root       499     1   499  0.0  0.0 138476   0  1268    1 Apr26 00:00:00 /usr/bin/abrt-watch-log -F BUG: WARNING: at INFO: possible recursive locking detected ernel BUG at list_del corruption list_add corruption do_IRQ: stack overflow: ear stack overflow (cur: eneral protection fault nable to handle kernel ouble fault: RTNL: assertion failed eek! page_mapcount(page) went negative! adness at NETDEV WATCHDOG ysctl table check failed : nobody cared IRQ handler type mismatch Machine Check Exception divide error: bounds: coprocessor segment overrun: invalid TSS: segment not present: invalid opcode: alignment check: stack segment: fpu exception: simd exception: iret exception: /var/log/messages -- /usr/bin/abrt-dump-oops -xD
+root       500     1   500  0.0  0.0 138476   0  1268    1 Apr26 00:00:00 /usr/bin/abrt-watch-log -F Backtrace /var/log/Xorg.0.log -- /usr/bin/abrt-dump-xorg -xD
+chrony     505     1   502  0.0  0.0  24652   0  1328    1 Apr26 00:00:00 /usr/sbin/chronyd -u chrony
+root       529   497   497  0.0  0.1 454168   0  3972    3 Apr26 00:00:00 /usr/libexec/gdm-simple-slave --display-id /org/gnome/DisplayManager/Displays/_0
+polkitd    535     1   535  0.0  0.6 633684   0 12832    6 Apr26 00:00:03 /usr/lib/polkit-1/polkitd --no-debug
+root       537     1   537  0.0  0.4 370032   0  9652    4 Apr26 00:00:05 /usr/sbin/NetworkManager --no-daemon
+root       594     1   485  0.0  0.1 161644   0  3088    2 Apr26 00:00:00 /usr/sbin/modem-manager
+root       599     1   599  0.0  0.0  23344   0  1884    1 Apr26 00:00:00 /usr/sbin/bluetoothd -n
+root       613     1   613  0.0  0.9 505012   0 18584   11 Apr26 00:00:00 /usr/sbin/libvirtd
+rpc        615     1   615  0.0  0.0  37692   0   920    1 Apr26 00:00:00 /sbin/rpcbind -w
+root       625   529   625  4.1  1.1 188080   0 23528    1 Apr26 00:10:27 /usr/bin/Xorg :0 -background none -verbose -auth /run/gdm/auth-for-gdm-7ARsUC/database -seat seat0 -nolisten tcp vt1
+root       658     1   658  0.0  0.1  98692   0  2532    1 Apr26 00:00:00 sendmail: accepting connections
+root       661     1   661  0.0  0.1  50876   0  2912    1 Apr26 00:00:00 /usr/sbin/wpa_supplicant -u -f /var/log/wpa_supplicant.log -c /etc/wpa_supplicant/wpa_supplicant.conf -u -f /var/log/wpa_supplicant.log -P /var/run/wpa_supplicant.pid
+smmsp      726     1   726  0.0  0.0  83744   0  1968    1 Apr26 00:00:00 sendmail: Queue runner@01:00:00 for /var/spool/clientmqueue
+root       952     1   952  0.0  0.1 234048   0  3776    3 Apr26 00:00:01 /usr/libexec/upowerd
+root      1055   537  1055  0.0  0.7 101952   0 15760    1 Apr26 00:00:00 /sbin/dhclient -d -sf /usr/libexec/nm-dhcp-client.action -pf /var/run/dhclient-wlp16s0.pid -lf /var/lib/NetworkManager/dhclient-2fc8d368-aca3-4729-932f-82b229ab7529-wlp16s0.lease -cf /var/lib/NetworkManager/dhclient-wlp16s0.conf wlp16s0
+colord    1139     1  1139  0.0  0.3 342228   0  6444    2 Apr26 00:00:00 /usr/libexec/colord
+root      1215   529   497  0.0  0.2 590944   0  5688    3 Apr26 00:00:00 gdm-session-worker [pam/gdm-password]
+jab       1228     1  1227  0.0  0.3 500748   0  6860    7 Apr26 00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+jab       1230  1215  1230  0.0  0.5 869244   0 12124    4 Apr26 00:00:00 gnome-session
+jab       1238     1  1230  0.0  0.0  13916   0   612    1 Apr26 00:00:00 dbus-launch --sh-syntax --exit-with-session
+jab       1239     1  1239  0.0  0.1  33836   0  2284    2 Apr26 00:00:00 /bin/dbus-daemon --fork --print-pid 4 --print-address 6 --session
+jab       1257     1  1239  0.0  0.2 368992   0  4120    4 Apr26 00:00:00 /usr/libexec/at-spi-bus-launcher
+jab       1261  1257  1239  0.0  0.0  32640   0  1812    2 Apr26 00:00:00 /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+jab       1265     1  1239  0.0  0.1 127272   0  2908    2 Apr26 00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+jab       1271     1  1239  0.0  0.1 304436   0  2692    2 Apr26 00:00:00 /usr/libexec/gvfsd
+jab       1275     1  1239  0.0  0.2 298368   0  5676    5 Apr26 00:00:00 /usr/libexec//gvfsd-fuse -f /run/user/1000/gvfs
+jab       1296  1230  1230  0.0  1.0 858128   0 21832    3 Apr26 00:00:03 /usr/libexec/gnome-settings-daemon
+jab       1308     1  1307  1.0  0.3 485936 -11  6984    3 Apr26 00:02:41 /usr/bin/pulseaudio --start
+jab       1340     1  1239  0.0  0.2 331680   0  5704    2 Apr26 00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+root      1342     1  1342  0.0  0.3 387368   0  6220    5 Apr26 00:00:06 /usr/lib/udisks2/udisksd --no-debug
+jab       1350     1  1239  0.0  0.1 305832   0  2696    2 Apr26 00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+jab       1354     1  1239  0.0  0.1 299688   0  2728    2 Apr26 00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+jab       1357     1  1239  0.0  0.4 563776   0  9880    4 Apr26 00:00:00 /usr/libexec/goa-daemon
+jab       1363     1  1239  0.0  0.1 314932   0  2864    2 Apr26 00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+jab       1367     1  1239  0.0  0.2 400576   0  4776    3 Apr26 00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+jab       1371  1230  1230  1.7 12.2 1809880  0 247328   6 Apr26 00:04:29 /usr/bin/gnome-shell
+jab       1376     1  1239  0.0  0.2 178304   0  4244    3 Apr26 00:00:00 /usr/libexec/dconf-service
+root      1385     1  1385  0.0  0.1 192724   0  4032    1 Apr26 00:00:00 /usr/sbin/cupsd -f
+jab       1395     1  1230  0.0  0.2 525464   0  4132    2 Apr26 00:00:00 /usr/libexec/gsd-printer
+jab       1404     1  1239  0.0  0.8 788044   0 16436    5 Apr26 00:00:00 /usr/libexec/gnome-shell-calendar-server
+jab       1407     1  1407  0.0  0.2 473028   0  6076    3 Apr26 00:00:00 /usr/bin/ibus-daemon --replace --xim --panel disable
+jab       1410  1407  1407  0.0  0.2 322156   0  4152    3 Apr26 00:00:00 /usr/libexec/ibus-dconf
+jab       1413     1  1407  0.0  0.4 388668   0  8764    2 Apr26 00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+jab       1425     1  1239  0.0  0.7 1111916  0 15748    3 Apr26 00:00:00 /usr/libexec/evolution-source-registry
+jab       1427     1  1239  0.0  0.3 345764   0  7132    3 Apr26 00:00:01 /usr/libexec/mission-control-5
+jab       1443  1407  1407  0.0  0.1 248304   0  4040    2 Apr26 00:00:00 /usr/libexec/ibus-engine-simple
+jab       1448  1230  1230  0.0  0.4 307472   0  8580    1 Apr26 00:00:00 /usr/bin/seapplet
+jab       1452  1230  1230  0.0  0.8 874744   0 16932    5 Apr26 00:00:00 /usr/libexec/evolution/3.8/evolution-alarm-notify
+jab       1462  1230  1230  0.0  0.6 434876   0 13080    7 Apr26 00:00:00 /usr/libexec/tracker-store
+jab       1463  1230  1230  0.0  0.5 402028   0 10604    2 Apr26 00:00:00 abrt-applet
+jab       1466  1230  1230  0.0  0.5 605592  19 10808    4 Apr26 00:00:00 /usr/libexec/tracker-miner-fs
+jab       1531     1  1239  0.0  1.0 1265852  0 20380    5 Apr26 00:00:00 /usr/libexec/evolution-calendar-factory
+jab       1565     1  1239  0.0  1.0 1164084  0 21068    5 Apr26 00:00:00 /usr/libexec/evolution-addressbook-factory
+root      5500     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [flush-253:2]
+jab       5518  1371  1230  6.6 22.4 1319832  0 454384  31 Apr26 00:12:59 /usr/lib64/firefox/firefox
+jab       5737  5518  1230  4.8  3.9 731336   0 81020    7 Apr26 00:08:57 /usr/lib64/firefox/xulrunner/plugin-container /usr/lib64/flash-plugin/libflashplayer.so -greomni /usr/lib64/firefox/xulrunner/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appdir /usr/lib64/firefox/browser 5518 true plugin
+jab       5819     1  1239  0.2  0.9 560568   0 18900    4 Apr26 00:00:29 /usr/libexec/gnome-terminal-server
+jab       5834  5819  1239  0.0  0.0   8456   0   728    1 Apr26 00:00:00 gnome-pty-helper
+jab       5835  5819  5835  0.0  0.1 116008   0  2560    1 Apr26 00:00:00 bash
+jab       5945     1  1239  0.0  0.1 230036   0  2572    2 Apr26 00:00:00 /usr/libexec/gvfsd-metadata
+root      6081  5835  6081  0.0  0.2 199584   0  4988    1 Apr26 00:00:00 su -
+root      6087  6081  6087  0.0  0.1 116032   0  2836    1 Apr26 00:00:01 -bash
+root      6128     1  6128  0.0  0.1 104084   0  3348    2 Apr26 00:00:02 /var/cfengine/bin/cf-execd
+root      6131     1  6131  0.0  0.1  36660   0  3304    1 Apr26 00:00:01 /var/cfengine/bin/cf-serverd
+root      6171     1  6171  0.0  0.1  37036   0  3964    1 Apr26 00:00:04 /var/cfengine/bin/cf-monitord
+root      7405     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:02 [kworker/1:1]
+root      7516     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [kworker/u:0]
+root      7547     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [kworker/0:2]
+root      7636     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [kworker/u:2]
+root      7710     2     0  0.0  0.0      0   0     0    1 00:00 00:00:00 [kworker/0:1]
+root      7803     2     0  0.0  0.0      0   0     0    1 00:03 00:00:00 [kworker/u:1]
+root      7805     2     0  0.0  0.0      0   0     0    1 00:04 00:00:00 [kworker/1:0]
+root      7830     2     0  0.0  0.0      0   0     0    1 00:09 00:00:00 [kworker/1:2]
+root      7851     2     0  0.0  0.0      0   0     0    1 00:10 00:00:00 [kworker/0:0]
+root      7875  6128  6128  0.0  0.0   9528   0  1020    1 00:11 00:00:00 sh -c "/var/cfengine/bin/cf-agent" -f /var/cfengine/inputs/update.cf ; "/var/cfengine/bin/cf-agent" -Dfrom_cfexecd
+root      7876  7875  7876  0.0  0.2  43032   0  4592    1 00:11 00:00:00 /var/cfengine/bin/cf-agent -f /var/cfengine/inputs/update.cf
+root      7880  7876  7876  0.0  0.0   9200   0  1064    1 00:11 00:00:00 /bin/ps -eo user,pid,ppid,pgid,pcpu,pmem,vsz,ni,rss,nlwp,stime,time,args

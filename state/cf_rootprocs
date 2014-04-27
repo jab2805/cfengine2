@@ -1,0 +1,104 @@
+USER       PID  PPID  PGID %CPU %MEM    VSZ  NI   RSS NLWP STIME     TIME COMMAND
+root         1     0     1  0.0  0.3  51228   0  7520    1 Apr26 00:00:03 /usr/lib/systemd/systemd --switched-root --system --deserialize 20
+root         2     0     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [kthreadd]
+root         3     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:02 [ksoftirqd/0]
+root         5     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [kworker/0:0H]
+root         7     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [kworker/u:0H]
+root         8     2     0  0.0  0.0      0   -     0    1 Apr26 00:00:00 [migration/0]
+root         9     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [rcu_bh]
+root        10     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:03 [rcu_sched]
+root        11     2     0  0.0  0.0      0   -     0    1 Apr26 00:00:00 [watchdog/0]
+root        12     2     0  0.0  0.0      0   -     0    1 Apr26 00:00:00 [watchdog/1]
+root        13     2     0  0.0  0.0      0   -     0    1 Apr26 00:00:00 [migration/1]
+root        14     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [ksoftirqd/1]
+root        16     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [kworker/1:0H]
+root        17     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [khelper]
+root        18     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [kdevtmpfs]
+root        19     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [netns]
+root        20     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [bdi-default]
+root        21     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [kintegrityd]
+root        22     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [kblockd]
+root        23     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [ata_sff]
+root        24     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [khubd]
+root        25     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [md]
+root        29     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:01 [kswapd0]
+root        30     2     0  0.0  0.0      0   5     0    1 Apr26 00:00:00 [ksmd]
+root        31     2     0  0.0  0.0      0  19     0    1 Apr26 00:00:00 [khugepaged]
+root        32     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [fsnotify_mark]
+root        33     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [crypto]
+root        41     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [kthrotld]
+root        44     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [scsi_eh_0]
+root        45     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [scsi_eh_1]
+root        48     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [kpsmoused]
+root        50     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [deferwq]
+root        52     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [kworker/0:1H]
+root        53     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:01 [kworker/1:1H]
+root        58     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [kauditd]
+root       179     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [firewire]
+root       180     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [scsi_eh_2]
+root       182     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [scsi_eh_3]
+root       203     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [pccardd]
+root       235     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [kdmflush]
+root       236     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [kdmflush]
+root       254     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [jbd2/dm-1-8]
+root       255     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [ext4-dio-unwrit]
+root       283     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [flush-253:1]
+root       303     1   303  0.0  1.1 293764   0 22552    1 Apr26 00:00:01 /usr/lib/systemd/systemd-journald
+root       322     1   322  0.0  0.1  43008   0  2628    1 Apr26 00:00:00 /usr/lib/systemd/systemd-udevd
+root       325     1   325  0.0  0.2 100324   0  5448    1 Apr26 00:00:00 /usr/sbin/lvmetad
+root       367     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [cfg80211]
+root       377     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [kvm-irqfd-clean]
+root       379     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [iwl4965]
+root       409     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [kdmflush]
+root       420     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [jbd2/sda1-8]
+root       421     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [ext4-dio-unwrit]
+root       425     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [hd-audio0]
+root       440     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [jbd2/dm-2-8]
+root       441     2     0  0.0  0.0      0 -20     0    1 Apr26 00:00:00 [ext4-dio-unwrit]
+root       443     1   443  0.0  0.0  48952  -4  1768    2 Apr26 00:00:00 /sbin/auditd -n
+root       456   443   456  0.0  0.0  80216  -8   828    2 Apr26 00:00:00 /sbin/audispd
+root       458   456   456  0.0  0.0  23976  -4   808    1 Apr26 00:00:00 /usr/sbin/sedispatch
+root       461     1   461  0.0  0.0  16744  19  1188    1 Apr26 00:00:00 /usr/sbin/alsactl -s -n 19 -c -E ALSA_CONFIG_PATH=/etc/alsa/alsactl.conf --initfile=/lib/alsa/init/00main rdaemon
+root       463     1   463  0.0  1.0 348380   0 20696    2 Apr26 00:00:01 /usr/bin/python /usr/sbin/firewalld --nofork --nopid
+root       468     1   468  0.0  0.0  33084   0  1764    1 Apr26 00:00:00 /usr/lib/systemd/systemd-logind
+root       482     1   482  0.0  0.0 256760   0  1936    4 Apr26 00:00:00 /sbin/rsyslogd -n
+root       486     1   486  0.0  0.3 393424   0  6700    3 Apr26 00:00:00 /usr/libexec/accounts-daemon
+avahi      487   481   481  0.0  0.0  27944   0   232    1 Apr26 00:00:00 avahi-daemon: chroot helper
+root       489     1   489  0.0  0.0   6996   0   856    1 Apr26 00:00:00 /usr/sbin/mcelog --ignorenodev --daemon --foreground
+root       493     1   493  0.0  0.0  23724   0   948    1 Apr26 00:00:00 /usr/sbin/atd -f
+root       494     1   494  0.0  0.0 124084   0  1692    1 Apr26 00:00:00 /usr/sbin/crond -n
+root       497     1   497  0.0  0.1 296804   0  3160    3 Apr26 00:00:00 /usr/sbin/gdm
+root       498     1   498  0.0  0.0 140592   0  1500    1 Apr26 00:00:00 /usr/sbin/abrtd -d -s
+root       499     1   499  0.0  0.0 138476   0  1268    1 Apr26 00:00:00 /usr/bin/abrt-watch-log -F BUG: WARNING: at INFO: possible recursive locking detected ernel BUG at list_del corruption list_add corruption do_IRQ: stack overflow: ear stack overflow (cur: eneral protection fault nable to handle kernel ouble fault: RTNL: assertion failed eek! page_mapcount(page) went negative! adness at NETDEV WATCHDOG ysctl table check failed : nobody cared IRQ handler type mismatch Machine Check Exception divide error: bounds: coprocessor segment overrun: invalid TSS: segment not present: invalid opcode: alignment check: stack segment: fpu exception: simd exception: iret exception: /var/log/messages -- /usr/bin/abrt-dump-oops -xD
+root       500     1   500  0.0  0.0 138476   0  1268    1 Apr26 00:00:00 /usr/bin/abrt-watch-log -F Backtrace /var/log/Xorg.0.log -- /usr/bin/abrt-dump-xorg -xD
+root       529   497   497  0.0  0.1 454168   0  3972    3 Apr26 00:00:00 /usr/libexec/gdm-simple-slave --display-id /org/gnome/DisplayManager/Displays/_0
+root       537     1   537  0.0  0.4 370032   0  9652    4 Apr26 00:00:05 /usr/sbin/NetworkManager --no-daemon
+root       594     1   485  0.0  0.1 161644   0  3088    2 Apr26 00:00:00 /usr/sbin/modem-manager
+root       599     1   599  0.0  0.0  23344   0  1884    1 Apr26 00:00:00 /usr/sbin/bluetoothd -n
+root       613     1   613  0.0  0.9 505012   0 18584   11 Apr26 00:00:00 /usr/sbin/libvirtd
+root       625   529   625  4.1  1.1 188080   0 23528    1 Apr26 00:10:27 /usr/bin/Xorg :0 -background none -verbose -auth /run/gdm/auth-for-gdm-7ARsUC/database -seat seat0 -nolisten tcp vt1
+root       658     1   658  0.0  0.1  98692   0  2532    1 Apr26 00:00:00 sendmail: accepting connections
+root       661     1   661  0.0  0.1  50876   0  2912    1 Apr26 00:00:00 /usr/sbin/wpa_supplicant -u -f /var/log/wpa_supplicant.log -c /etc/wpa_supplicant/wpa_supplicant.conf -u -f /var/log/wpa_supplicant.log -P /var/run/wpa_supplicant.pid
+root       952     1   952  0.0  0.1 234048   0  3776    3 Apr26 00:00:01 /usr/libexec/upowerd
+root      1055   537  1055  0.0  0.7 101952   0 15760    1 Apr26 00:00:00 /sbin/dhclient -d -sf /usr/libexec/nm-dhcp-client.action -pf /var/run/dhclient-wlp16s0.pid -lf /var/lib/NetworkManager/dhclient-2fc8d368-aca3-4729-932f-82b229ab7529-wlp16s0.lease -cf /var/lib/NetworkManager/dhclient-wlp16s0.conf wlp16s0
+root      1215   529   497  0.0  0.2 590944   0  5688    3 Apr26 00:00:00 gdm-session-worker [pam/gdm-password]
+root      1342     1  1342  0.0  0.3 387368   0  6220    5 Apr26 00:00:06 /usr/lib/udisks2/udisksd --no-debug
+root      1385     1  1385  0.0  0.1 192724   0  4032    1 Apr26 00:00:00 /usr/sbin/cupsd -f
+root      5500     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [flush-253:2]
+root      6081  5835  6081  0.0  0.2 199584   0  4988    1 Apr26 00:00:00 su -
+root      6087  6081  6087  0.0  0.1 116032   0  2836    1 Apr26 00:00:01 -bash
+root      6128     1  6128  0.0  0.1 104084   0  3348    2 Apr26 00:00:02 /var/cfengine/bin/cf-execd
+root      6131     1  6131  0.0  0.1  36660   0  3304    1 Apr26 00:00:01 /var/cfengine/bin/cf-serverd
+root      6171     1  6171  0.0  0.1  37036   0  3964    1 Apr26 00:00:04 /var/cfengine/bin/cf-monitord
+root      7405     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:02 [kworker/1:1]
+root      7516     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [kworker/u:0]
+root      7547     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [kworker/0:2]
+root      7636     2     0  0.0  0.0      0   0     0    1 Apr26 00:00:00 [kworker/u:2]
+root      7710     2     0  0.0  0.0      0   0     0    1 00:00 00:00:00 [kworker/0:1]
+root      7803     2     0  0.0  0.0      0   0     0    1 00:03 00:00:00 [kworker/u:1]
+root      7805     2     0  0.0  0.0      0   0     0    1 00:04 00:00:00 [kworker/1:0]
+root      7830     2     0  0.0  0.0      0   0     0    1 00:09 00:00:00 [kworker/1:2]
+root      7851     2     0  0.0  0.0      0   0     0    1 00:10 00:00:00 [kworker/0:0]
+root      7875  6128  6128  0.0  0.0   9528   0  1020    1 00:11 00:00:00 sh -c "/var/cfengine/bin/cf-agent" -f /var/cfengine/inputs/update.cf ; "/var/cfengine/bin/cf-agent" -Dfrom_cfexecd
+root      7876  7875  7876  0.0  0.2  43032   0  4592    1 00:11 00:00:00 /var/cfengine/bin/cf-agent -f /var/cfengine/inputs/update.cf
+root      7880  7876  7876  0.0  0.0   9200   0  1064    1 00:11 00:00:00 /bin/ps -eo user,pid,ppid,pgid,pcpu,pmem,vsz,ni,rss,nlwp,stime,time,args

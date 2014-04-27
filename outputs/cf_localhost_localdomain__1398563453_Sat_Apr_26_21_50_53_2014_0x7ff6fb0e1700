@@ -1,0 +1,6 @@
+/var/cfengine/inputs/lib/3.5/files.cf:790:0: error: Duplicate definition of body empty with type edit_defaults
+/var/cfengine/inputs/services/motd.cf:28:0: error: Duplicate definition of body empty with type edit_defaults
+2014-04-26T21:50:54-0400    error: Policy failed validation with command '"/var/cfengine/bin/cf-promises" -c "/var/cfengine/inputs/promises.cf"'
+2014-04-26T21:50:54-0400    error: CFEngine was not able to get confirmation of promises from cf-promises, so going to failsafe
+2014-04-26T21:50:54-0400   notice: R: You are running a hard-coded failsafe. Please use the following command instead.
+     "/var/cfengine/bin/cf-agent" -f /var/cfengine/inputs/update.cf
